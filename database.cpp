@@ -53,7 +53,7 @@ int main ()
         entry.recNum = recNum; 
         recNum++;  
 		index.insert(entry);
-		cout<<entry.acctID<<" ";// <-------------------------------------------------------------- add a line of code here
+		//cout<<entry.acctID<<" ";// <-------------------------------------------------------------- add a line of code here
         acctFile.seekg(recNum*bytesPerRecord); // go to beginning of the line that contains the recNum record
     }
 
